@@ -1,0 +1,72 @@
+.container {
+}
+body {
+  background: white;
+}
+.search-bar {
+  background: #c8190ccf;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar input,
+.search-bar select {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.search-bar input:focus,
+.search-bar select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-bar .btn-search {
+  background-color: #2563eb;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.search-bar .btn-search:hover {
+  background-color: #1e4bb8;
+}
+
+.myimage {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
+img {
+  height: 55%;
+  width: 21%;
+}
+
+footer {
+  background: #c8190ccf;
+  padding: 1rem;
+  color: white;
+  margin-top: 20rem;
+}
+
+select{
+  font-size: 20px;
+  width: 150px; 
+  padding: 5px;
+  color: green;
+}
+
+select option{
+  color: red;
+  background-color: blue;
+}
+
+select:invalid {
+  color: yellow;
+}
